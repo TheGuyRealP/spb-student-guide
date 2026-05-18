@@ -7,7 +7,7 @@ Author: Peter Simwanza
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="icon" type="image/png" href="images/1favicon.png"> <!--- site favicon-->
+  <link rel="icon" type="image/png" href="images/favicon.png"> <!--- site favicon-->
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -33,23 +33,23 @@ Author: Peter Simwanza
     </div>
 
     <nav>
-      <ul class="nav-links">
+      <ul class="nav-links" id="nav-links">
         <li><a href="#places">Places</a></li>
-        <li><a href="#food">Food</a></li>
+        <li><a href="#food">Food and Restaurants</a></li>
         <li><a href="#shopping">Shopping</a></li>
         <li><a href="#work">Work</a></li>
-        <li><a href="#laws">Laws</a></li>
-        <li><a href="#climate">Climate</a></li>
         <li><a href="#apps">Apps</a></li>
-        <li><a href="#banks">Banks</a></li>
-        <li><a href="#russian">Russian</a></li>
         <li><a href="#social">Social</a></li>
+        <li><a href="russian.html">RU</a></li>
       </ul>
     </nav>
 
     
-      <img src="images/lulachi.jpg" class="circular-image" alt="Circular Avatar">
+      <img src="images/sitepp2.jpg" class="circular-image" alt="Circular Avatar">
     
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
 
   </header>
 
@@ -126,7 +126,7 @@ Author: Peter Simwanza
         </div>
 
         <div class="card">
-          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop" alt="">
+          <img src="https://www.globeguide.ca/wp-content/uploads/2017/01/Russia_Peterhof_Palace-fountain.jpg" alt="">
           <div class="card-content">
             <h3>Peterhof Gardens</h3>
             <p>
@@ -139,43 +139,88 @@ Author: Peter Simwanza
       </div>
     </section>
 
-    <!-- FOOD -->
+    <!-- FOOD and RESTAURANTS-->
     <section id="food" class="section">
 
       <div class="section-title">
         <h2>Food & Restaurants</h2>
       </div>
 
-      <div class="info-grid">
+      <div class="cards">
 
-        <div class="info-box">
-          <i class="fas fa-pizza-slice"></i>
-          <h3>Affordable Student Cafes</h3>
-          <p>
-            Explore local cafeterias and budget-friendly student restaurants
-            around university areas.
-          </p>
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOpMwVC3wtmVy02cWEC5J2hqc9MmUWmzha1Q&s">
+          <div class="card-content">
+            <h3>Italian Restaurants</h3>
+
+            <p>
+              Popular places for pasta, pizza and casual dining include:
+            </p>
+
+            <ul>
+              <li>
+                <a href="https://www.mamaroma.ru/" target="_blank">
+                  Mama Roma
+                </a>
+              </li>
+
+              <li>
+                <a href="https://tokyocity.ru/" target="_blank">
+                  Tokyo City
+                </a>
+              </li>
+
+              <li>
+                <a href="https://marcellis.ru/">
+                  Marcelli’s
+                </a>
+              </li>
+            </ul>
+
+          </div>
         </div>
 
-        <div class="info-box">
-          <i class="fas fa-burger"></i>
-          <h3>Fast Food</h3>
-          <p>
-            International chains and local fast food spots are widely available
-            throughout the city.
-          </p>
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAm0W7K4GRPSrF77b6s3RV4rt3zfyFHTE1tw&s">
+          <div class="card-content">
+
+            <h3>Fast Food</h3>
+
+            <p>
+              Fast food chains are everywhere in St. Petersburg and affordable for students.
+            </p>
+
+            <ul>
+              <li><a href="https://vkusnoitochka.ru/" target="_blank">Vkusno i Tochka</a></li>
+              <li><a href="https://rostics.ru/" target="_blank">Rostic's</a></li>
+              <li><a href="https://burgerkingrus.ru/" target="_blank">Burger King</a></li>
+              <li><a href="https://dodopizza.ru/">Dodopizza</a></li>
+            </ul>
+
+          </div>
         </div>
 
-        <div class="info-box">
-          <i class="fas fa-utensils"></i>
-          <h3>International Cuisine</h3>
-          <p>
-            African, Asian, Middle Eastern and European restaurants can be
-            found around central districts.
-          </p>
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRFdmlXrFuoxS3dl1Q70ORrDkfgncCQSZYQw&s">
+          <div class="card-content">
+
+            <h3>Russian Cuisine</h3>
+
+            <p>
+              Try traditional Russian meals and affordable homemade-style food.
+            </p>
+
+            <ul>
+              <li><a href="https://teremok.ru/" target="_blank">Teremok</a></li>
+              <li>Marketplace</li>
+              <li>Stolovaya No.1</li>
+            </ul>
+
+          </div>
         </div>
 
       </div>
+
     </section>
 
     <!-- SHOPPING -->
@@ -186,6 +231,25 @@ Author: Peter Simwanza
       </div>
 
       <div class="cards">
+
+      <div class="card">
+        <img src="https://us.123rf.com/450wma/chizid/chizid1711/chizid171100002/90727636-saint-petersburg-russia-25-12-2016-inside-the-galeria-shopping-mall.avif">
+
+        <div class="card-content">
+          <h3>Malls & Shopping Centers</h3>
+
+          <p>
+            Popular malls for students include:
+          </p>
+
+          <ul>
+            <li>Galeria Mall</li>
+            <li>Mega Dybenko</li>
+            <li>Nevsky Center</li>
+            <li>Europolis</li>
+          </ul>
+        </div>
+      </div>
 
         <div class="card">
           <img src="https://images.unsplash.com/photo-1481437156560-3205f6a55735?q=80&w=1200&auto=format&fit=crop" alt="">
@@ -221,12 +285,23 @@ Author: Peter Simwanza
         </div>
 
         <div class="card">
-          <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1200&auto=format&fit=crop">
+          <img src="https://www.shutterstock.com/image-photo/moscow-01242026-largest-russian-marketplaces-260nw-2732796541.jpg">
+
           <div class="card-content">
-            <h3>Budget Shopping</h3>
+
+            <h3>Online Shopping</h3>
+
             <p>
-              Stores like Fix Price, Wildberries, OZON and second-hand shops are great for students trying to save money.
+              Most students use online stores for convenience and discounts.
             </p>
+
+            <ul>
+              <li><a href="https://www.market.yandex.ru/" target="_blank">Yandex Market</a></li>
+              <li><a href="https://www.ozon.ru/" target="_blank">OZON</a></li>
+              <li><a href="https://www.wildberries.ru/" target="_blank">Wildberries</a></li>
+              <li><a href="https://www.avito.ru/" target="_blank">Avito</a></li>
+            </ul>
+
           </div>
         </div>
 
@@ -333,9 +408,9 @@ Author: Peter Simwanza
     </div>
 
     <div class="card">
-      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop">
+      <img src="https://res.cloudinary.com/djcyhbk2e/image/upload/c_limit,f_auto,q_50,w_1400/v1/gvv/prod/ink9qx00lq1alhiwkruf">
       <div class="card-content">
-        <h3>Autumn & Spring</h3>
+        <h3>Spring</h3>
         <p>
           Rain and wind are very common. Waterproof shoes, umbrellas and layered clothing are highly recommended.
         </p>
@@ -343,7 +418,7 @@ Author: Peter Simwanza
     </div>
 
     <div class="card">
-      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200&auto=format&fit=crop">
+      <img src="https://guideforyou-russia.com/wp-content/uploads/2019/07/fergergervevg.jpeg">
       <div class="card-content">
         <h3>Summer</h3>
         <p>
@@ -352,41 +427,87 @@ Author: Peter Simwanza
       </div>
     </div>
 
+    <div class="card">
+      <img src="https://sokroma.ru/upload/resize_cache/webp/iblock/a59/e0lcunqwxxt2jp01zkpn2o5hzz9gv2as.webp">
+      <div class="card-content">
+        <h3>Autumn</h3>
+        <p>
+          Autumn is a time of golden parks, romantic mists, and a rich cultural life.
+          It ushers in a series of St. Petersburg's famous rains, so the key to a comfortable stay is warm, waterproof clothing and a smart alternation of walks with visits to museums.
+        </p>
+      </div>
+    </div>
+
   </div>
 </section>
 
     <!-- APPS -->
-<section id="apps" class="section">
+<section id="apps" class="section cards-section">
 
   <div class="section-title">
     <h2>Useful Apps for Students</h2>
   </div>
 
-  <div class="info-grid">
+  <div class="cards">
 
-    <div class="info-box">
-      <i class="fas fa-map"></i>
-      <h3>Navigation</h3>
-      <p>
-        Yandex Maps, 2GIS and Yandex Go are extremely useful for navigation,
-        taxis and deliveries.
-      </p>
+    <div class="card">
+      <img src="data:image/jpeg;base64,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">
+
+      <div class="card-content">
+        <h3>Transport & Navigation</h3>
+
+        <ul>
+          <li>Yandex Maps</li>
+          <li>Yandex Metro</li>
+          <li>Yandex Go</li>
+          <li>2GIS</li>
+          <li>Goolge Maps</li>
+          </li>
+        </ul>
+
+        <p>
+          Useful for taxis, metro navigation and deliveries.
+        </p>
+
+      </div>
     </div>
 
-    <div class="info-box">
-      <i class="fas fa-language"></i>
-      <h3>Translation</h3>
-      <p>
-        Google Translate and DeepL help international students communicate more easily.
-      </p>
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Google_Translate_Icon.png">
+
+      <div class="card-content">
+        <h3>Translation Apps</h3>
+
+        <ul>
+          <li>Yandex Translate</li>
+          <li>DeepL</li>
+          <li>Google Translate</li>
+        </ul>
+
+        <p>
+          Essential for communication and university life.
+        </p>
+
+      </div>
     </div>
 
-    <div class="info-box">
-      <i class="fas fa-book"></i>
-      <h3>Study Apps</h3>
-      <p>
-        Notion, Quizlet and Duolingo can improve organization and language learning.
-      </p>
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png">
+
+      <div class="card-content">
+        <h3>Study Apps</h3>
+
+        <ul>
+          <li>Notion</li>
+          <li>Quizlet</li>
+          <li>Duolingo</li>
+        </ul>
+
+        <p>
+          Great for organization and language learning.
+        </p>
+
+      </div>
     </div>
 
   </div>
@@ -400,6 +521,15 @@ Author: Peter Simwanza
   </div>
 
   <div class="cards">
+
+    <div class="card">
+      <div class="card-content">
+        <h3>Bank Saint Petersburg</h3>
+        <p>
+          Popular amongst students in Saint Petersburg and known for its student-friendly perks.
+        </p>
+      </div>
+    </div>
 
     <div class="card">
       <div class="card-content">
@@ -432,37 +562,40 @@ Author: Peter Simwanza
 </section>
 
     <!-- RUSSIAN LANGUAGE -->
-<section id="russian" class="section">
+    <section id="russian" class="section">
 
-  <div class="section-title">
-    <h2>Improving Your Russian Language Skills</h2>
-  </div>
+      <div class="section-title">
+        <h2>Improving Your Russian Language Skills</h2>
+      </div>
 
-  <div class="timeline">
+      <div class="timeline">
 
-    <div class="timeline-item">
-      <h3>Practice Daily</h3>
-      <p>
-        Speaking Russian for even 15–20 minutes daily greatly improves fluency and confidence.
-      </p>
-    </div>
+        <div class="timeline-item">
+          <h3>Practice Daily</h3>
+          <p>
+            Speaking Russian for even 15–20 minutes daily greatly improves fluency and confidence.
+          </p>
+        </div>
 
-    <div class="timeline-item">
-      <h3>Watch Russian Content</h3>
-      <p>
-        Russian YouTube videos, podcasts and TV series with subtitles help students improve listening skills.
-      </p>
-    </div>
+        <div class="timeline-item">
+          <h3>Watch Russian Content</h3>
+          <p>
+            Russian YouTube videos, podcasts and TV series with subtitles help students improve listening skills.
+            Some popular Russian content includes Kitchen (Кухня), The Word Of A Man (Слово Пацана), Major Grom, Better Than Us and SIlver Skates.
+          </p>
+        </div>
 
-    <div class="timeline-item">
-      <h3>Language Exchange</h3>
-      <p>
-        Apps like Tandem and HelloTalk help students communicate with native speakers.
-      </p>
-    </div>
+        <div class="timeline-item">
+          <h3>Language Exchange</h3>
+          <p>
+            Apps like Tandem and HelloTalk help students communicate with native speakers.
+          </p>
+        </div>
 
-  </div>
-</section>
+      </div>
+    </section>
+
+
 
     <!-- SOCIAL -->
     <section id="social" class="section">
@@ -523,14 +656,15 @@ Author: Peter Simwanza
     <p>
       © 2026 SPB Student Guide | Designed for International Students in Saint Petersburg, Russia.
       <p><small>
-        An initiative of Lulachi Munyati and Arina, students of Saint Petersburg State University of Industrial Design and Technology.
+        An initiative of <b>Lulachi Munyati</b> and <b>Arina Bagaeva</b>, students of Saint Petersburg State University of Industrial Design and Technology.
       </p></small>
     </p>
-    <p><small>Author: Peter Simwanza</small></p>
-    <p><small>For technical support, contact simwanzapeter8@gmail.com</small></p>
+    <p><small><i>Author: Real-p</i></small></p>
+    <p><small><sub>For technical support, contact simwanzapeter8@gmail.com</sub></small></p>
   </footer>
 
   <script src="script.js"></script>
 
 </body>
 </html>
+
